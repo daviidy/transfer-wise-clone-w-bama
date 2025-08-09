@@ -1,0 +1,22 @@
+.menu {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+
+.menu div:nth-child(1) {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+
+nav ul {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+}
+
+li {
+    margin: 0 10px;
+    list-style-type: none;
+}
