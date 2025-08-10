@@ -20,3 +20,90 @@ li {
     margin: 0 10px;
     list-style-type: none;
 }
+
+.personal {
+    border: none;
+    background-color: #e2f6d5;
+    padding: 5px 5px;
+    border-radius: 15px;
+}
+
+.personal:hover {
+    background-color: rgb(199, 246, 230);
+}
+
+.personal a {
+    padding: 10px;
+    text-decoration: none;
+    font-weight: bold;
+    color: #163300;
+    font-size: 1vw;
+}
+
+.register {
+    border: none;
+    background-color: #9fe870;
+    padding: 5px 5px;
+    border-radius: 15px;
+    margin-right: 100px;
+    margin-left: 15px;
+}
+
+.register:hover {
+    background-color: rgb(138, 225, 138);
+}
+
+.register a {
+    padding: 10px;
+    text-decoration: none;
+    font-weight: bold;
+    color: #163300;
+    font-size: 1vw;
+}
+
+.platform a {
+    text-decoration: none;
+    font-weight: bold;
+    color: #163300;
+    font-size: 1.2vw;
+}
+
+.features a {
+    text-decoration: none;
+    font-weight: bold;
+    color: #163300;
+    font-size: 1.2vw; 
+}
+
+.logo {
+    margin-left: 100px;
+}
+
+.pricing a {
+    text-decoration: none;
+    font-weight: bold;
+    color: #163300;
+    font-size: 1.2vw; 
+}
+
+.help a {
+    text-decoration: none;
+    font-weight: bold;
+    color: #163300;
+    font-size: 1.2vw; 
+} 
+
+
+.lang a {
+    text-decoration: none;
+    font-weight: bold;
+    color: #163300;
+    font-size: 1.2vw;
+}
+
+.log a {
+    text-decoration: none;
+    font-weight: bold;
+    color: #163300;
+    font-size: 1.2vw;
+}
