@@ -37,7 +37,7 @@ li {
     text-decoration: none;
     font-weight: bold;
     color: #163300;
-    font-size: 1vw;
+    font-size: 1.1vw;
 }
 
 .register {
@@ -65,14 +65,24 @@ li {
     text-decoration: none;
     font-weight: bold;
     color: #163300;
-    font-size: 1.2vw;
+    font-size: 1.1vw;
+}
+
+.platform a:hover {
+    background-color: rgb(223, 219, 219);
+    border: none;
+    padding: 5px 10px;
+    border-radius: 15px;
 }
 
 .features a {
     text-decoration: none;
     font-weight: bold;
     color: #163300;
-    font-size: 1.2vw; 
+    font-size: 1.1vw; 
+}
+
+.dropdown ul li {
 }
 
 .logo {
@@ -83,27 +93,48 @@ li {
     text-decoration: none;
     font-weight: bold;
     color: #163300;
-    font-size: 1.2vw; 
+    font-size: 1.1vw; 
+}
+
+.pricing a:hover {
+    background-color: rgb(223, 219, 219);
+    border: none;
+    padding: 5px 10px;
+    border-radius: 15px;
 }
 
 .help a {
     text-decoration: none;
     font-weight: bold;
     color: #163300;
-    font-size: 1.2vw; 
-} 
+    font-size: 1.1vw; 
+}
+
+.help a:hover {
+    background-color: rgb(223, 219, 219);
+    border: none;
+    padding: 5px 10px;
+    border-radius: 15px;
+}
 
 
 .lang a {
     text-decoration: none;
     font-weight: bold;
     color: #163300;
-    font-size: 1.2vw;
+    font-size: 1.1vw;
 }
 
 .log a {
     text-decoration: none;
     font-weight: bold;
     color: #163300;
-    font-size: 1.2vw;
+    font-size: 1.1vw;
+}
+
+.log a:hover {
+    background-color: rgb(223, 219, 219);
+    border: none;
+    padding: 5px 10px;
+    border-radius: 15px;
 }
