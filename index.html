@@ -1,18 +1,25 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Wise: The international account</title>
     <link rel="stylesheet" href="style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@400;700&display=swap" rel="stylesheet">
 </head>
+
 <body>
     <header class="menu">
         <!-- div containing logo and personal, business, platform links -->
         <div>
             <div>
-                <img class="logo" width="100" src="https://upload.wikimedia.org/wikipedia/commons/e/e8/Wise_Logo_512x124.svg" alt="Transfer wise logo">
-            </div>            
+                <img class="logo" width="100"
+                    src="https://upload.wikimedia.org/wikipedia/commons/e/e8/Wise_Logo_512x124.svg"
+                    alt="Transfer wise logo">
+            </div>
             <div>
                 <nav>
                     <ul>
@@ -35,12 +42,40 @@
                     </li>
                     <li class="pricing"><a href="#">Pricing</a></li>
                     <li class="help"><a href="#">Help</a></li>
-                    <li class="lang"><a href="#">Langage</a></li>
+                    <li class="lang"><a href="#">
+                        <img class="rounded" src="https://cdn.britannica.com/48/5048-050-69610380/Flag-Cote-dIvoire.jpg" alt="FR" width="20" height="15">
+                    </a>FR</li>
                     <li class="log"><a href="#">Log in </a></li>
                     <button class="register"><a href="#">Register</a></button></li>
                 </ul>
             </nav>
         </div>
     </header>
+
+    <main>
+        <section class="hero">
+            <div class="ratings">
+                <div class="apple-ratings">
+                    <img src="data:image/png;base64,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" alt="Logo Apple">
+                    <span>4.8 on App Store 152K reviews</span>
+                </div>
+                <div class="google-ratings">
+                    <img src="data:image/png;base64,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" alt="Play Store logo">
+                    <span>4.8 on Google Play 1.3M reviews</span>
+                </div>
+            </div>
+            <div class="hero-title">
+                <h1>Connect your money worldwide</h1>
+            </div>
+            <div class="hero-description">
+                <p>Pay and get paid globally. Move money where it matters: from paying your mortgage in euros to sending rupees overseas. Fast, simple and secure.</p>
+            </div>
+            <div class="hero-buttons">
+                <a href="#">Send Money now</a>
+                <a href="#">How our transfers work</a>
+            </div>
+        </section>
+    </main>
 </body>
+
 </html>

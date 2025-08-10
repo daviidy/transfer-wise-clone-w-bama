@@ -1,13 +1,11 @@
-.menu {
-    display: flex;
-    flex-direction: row;
-    justify-content: space-between;
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
 }
 
-.menu div:nth-child(1) {
-    display: flex;
-    flex-direction: row;
-    justify-content: space-between;
+body {
+    font-family: 'Montserrat', sans-serif;
 }
 
 nav ul {
@@ -19,6 +17,19 @@ nav ul {
 li {
     margin: 0 10px;
     list-style-type: none;
+}
+
+.menu {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    margin: 2rem;
+}
+
+.menu div:nth-child(1) {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
 }
 
 .personal {
@@ -35,7 +46,6 @@ li {
 .personal a {
     padding: 10px;
     text-decoration: none;
-    font-weight: bold;
     color: #163300;
     font-size: 1.1vw;
 }
@@ -56,14 +66,12 @@ li {
 .register a {
     padding: 10px;
     text-decoration: none;
-    font-weight: bold;
     color: #163300;
     font-size: 1vw;
 }
 
 .platform a {
     text-decoration: none;
-    font-weight: bold;
     color: #163300;
     font-size: 1.1vw;
 }
@@ -77,7 +85,6 @@ li {
 
 .features a {
     text-decoration: none;
-    font-weight: bold;
     color: #163300;
     font-size: 1.1vw; 
 }
@@ -91,7 +98,6 @@ li {
 
 .pricing a {
     text-decoration: none;
-    font-weight: bold;
     color: #163300;
     font-size: 1.1vw; 
 }
@@ -105,7 +111,6 @@ li {
 
 .help a {
     text-decoration: none;
-    font-weight: bold;
     color: #163300;
     font-size: 1.1vw; 
 }
@@ -120,14 +125,12 @@ li {
 
 .lang a {
     text-decoration: none;
-    font-weight: bold;
     color: #163300;
     font-size: 1.1vw;
 }
 
 .log a {
     text-decoration: none;
-    font-weight: bold;
     color: #163300;
     font-size: 1.1vw;
 }
@@ -137,4 +140,17 @@ li {
     border: none;
     padding: 5px 10px;
     border-radius: 15px;
+}
+
+.rounded {
+    border-radius: 50%;
+}
+
+
+/* Main */
+
+.ratings {
+    display: flex;
+    justify-content: center;
+    margin: 2rem;
 }
