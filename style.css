@@ -15,7 +15,7 @@ nav ul {
 }
 
 li {
-    margin: 0 10px;
+    margin: 6px 10px;
     list-style-type: none;
 }
 
@@ -33,11 +33,13 @@ li {
 }
 
 .personal {
-    border: none;
-    background-color: #e2f6d5;
-    padding: 5px 5px;
-    border-radius: 15px;
+     background-color: #e2f6d5;
+    border-radius: 12px;
+    text-decoration: none;
+    padding: 1px;
+    font-size: 1vw;
 }
+
 
 .personal:hover {
     background-color: rgb(199, 246, 230);
@@ -48,26 +50,31 @@ li {
     text-decoration: none;
     color: #163300;
     font-size: 1.1vw;
+    border-radius: 15px;
+    padding: 20px 10px;
 }
 
 .register {
-    border: none;
     background-color: #9fe870;
-    padding: 5px 5px;
-    border-radius: 15px;
+    border-radius: 12px;
+    text-decoration: none;
+    padding: 1px;
+    font-size: 1vw;
     margin-right: 100px;
     margin-left: 15px;
 }
 
 .register:hover {
-    background-color: rgb(138, 225, 138);
+    background-color: rgb(50, 250, 50);
 }
 
 .register a {
-    padding: 10px;
+    padding: 5px 5px;
     text-decoration: none;
     color: #163300;
     font-size: 1vw;
+    border-radius: 15px;
+    border: none;
 }
 
 .platform a {
@@ -88,10 +95,8 @@ li {
     color: #163300;
     font-size: 1.1vw; 
 }
-
 .dropdown ul li {
 }
-
 .logo {
     margin-left: 100px;
 }
@@ -146,11 +151,42 @@ li {
     border-radius: 50%;
 }
 
-
 /* Main */
 
 .ratings {
     display: flex;
     justify-content: center;
     margin: 2rem;
+}
+
+.hero-title {
+    display: flex;
+    justify-content: center;
+    text-transform: uppercase;
+    font-size: large;
+}
+
+.hero-description {
+    margin: 25px;
+    display: flex;
+    justify-content: center;
+}
+
+.hero-buttons {
+    border: none;
+    display: flex;
+    justify-content: center;
+    justify-content: space-evenly;
+    margin: 50px;
+}
+
+.hero-buttons a {
+    background-color: #9fe870;
+    border-radius: 15px;
+    text-decoration: none;
+    padding: 10px;
+    font-size: 1.1vw;
+}
+
+.transfert {
 }
