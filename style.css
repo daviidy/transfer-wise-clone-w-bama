@@ -163,7 +163,8 @@ li {
     display: flex;
     justify-content: center;
     text-transform: uppercase;
-    font-size: large;
+    font-size: 20px;
+    font-weight: bold;
 }
 
 .hero-description {
@@ -180,13 +181,23 @@ li {
     margin: 50px;
 }
 
-.hero-buttons a {
+.hero-send a {
     background-color: #9fe870;
     border-radius: 15px;
     text-decoration: none;
     padding: 10px;
     font-size: 1.1vw;
+    color: black;
 }
 
-.transfert {
+
+.hero-map a {
+    content: '';
+    text-decoration: none;
+    color: black;
+    font-size: 1.1vw
+
 }
+
+
+
