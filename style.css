@@ -17,6 +17,8 @@ nav ul {
 li {
     margin: 6px 10px;
     list-style-type: none;
+    display: flex;
+    align-items: center;
 }
 
 .menu {
@@ -62,6 +64,8 @@ li {
     font-size: 1vw;
     margin-right: 100px;
     margin-left: 15px;
+    display: flex;
+    align-items: center;
 }
 
 .register:hover {
@@ -163,14 +167,20 @@ li {
     display: flex;
     justify-content: center;
     text-transform: uppercase;
-    font-size: 20px;
+    font-size: 4rem;
     font-weight: bold;
+    text-align: center;
 }
 
 .hero-description {
     margin: 25px;
     display: flex;
     justify-content: center;
+}
+
+.hero-description p {
+    text-align: center;
+    line-height: 1.5;
 }
 
 .hero-buttons {
@@ -188,6 +198,7 @@ li {
     padding: 10px;
     font-size: 1.1vw;
     color: black;
+    font-weight: bold;
 }
 
 
@@ -195,8 +206,9 @@ li {
     content: '';
     text-decoration: none;
     color: black;
-    font-size: 1.1vw
-
+    font-size: 1.1vw;
+    font-weight: bold;
+    border-bottom: 2px solid black;
 }
 
 
