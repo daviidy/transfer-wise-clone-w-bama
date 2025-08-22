@@ -35,8 +35,8 @@ li {
 }
 
 .personal {
-     background-color: #e2f6d5;
-    border-radius: 12px;
+    background-color: #e2f6d5;
+    border-radius: 15px;
     text-decoration: none;
     padding: 1px;
     font-size: 1vw;
@@ -53,7 +53,7 @@ li {
     color: #163300;
     font-size: 1.1vw;
     border-radius: 15px;
-    padding: 20px 10px;
+    padding: 5px 5px;
 }
 
 .register {
@@ -167,7 +167,7 @@ li {
     display: flex;
     justify-content: center;
     text-transform: uppercase;
-    font-size: 4rem;
+    font-size: 2rem;
     font-weight: bold;
     text-align: center;
 }
@@ -210,6 +210,120 @@ li {
     font-weight: bold;
     border-bottom: 2px solid black;
 }
+
+.container {
+    position: relative;
+    padding: 25px;
+    max-width: 500px;
+    width: 100%;
+    background: #e2f6d5;
+    border-radius: 20px;
+    margin: auto;
+    height: 700px;
+}
+
+.container header p {
+    text-align: center;
+    font-weight: bold;
+}
+
+.forex {
+    text-align: center;
+    margin-top: 15px;
+}
+
+.forex button {
+    padding: 10px 10px;
+    text-decoration: none;
+    color: #163300;
+    font-size: 1vw;
+    border-radius: 15px;
+    border: none;  
+    text-transform: uppercase;
+    font-weight: bold;  
+}
+
+.forex button:hover {
+    background-color: silver;
+}
+
+
+.form .input-box {
+    width: 100%;
+    margin-top: 25px;
+}
+
+.form .input-box input {
+    position: relative;
+    height: 50px;
+    width: 100%;
+    outline: none;
+    border: 1px solid grey;
+    border-radius: 12px;
+    margin-top: 5px;
+}
+
+.form .discount input {
+    position: relative;
+    height: 50px;
+    width: 100%;
+    outline: none;
+    border: 1px;
+    border-radius: 12px;
+    margin-top: 25px;
+    background-color: rgb(227, 251, 251);
+}
+
+.input-box .fa-solid {
+    position: absolute;
+}
+
+table {
+    border: 1px solid grey;
+    margin-top: 20px;
+    width: 100%;
+    border-radius: 15px;
+    padding: 10px 5px;
+    margin-bottom: 10px;
+}
+
+.compare-send {
+    display: flex;
+    justify-content: center;
+    justify-content: space-evenly;
+    margin-top: 25px;
+}
+
+.send button {
+    background-color: #9fe870;
+    border-radius: 15px;
+    text-decoration: none;
+    padding: 10px;
+    font-size: 1.1vw;
+    color: black;
+    border: none;
+    font-weight: bold;
+}
+
+.send button:hover {
+    background-color: limegreen;
+}
+
+.compare button {
+     background-color: white;
+    border-radius: 15px;
+    text-decoration: none;
+    padding: 10px;
+    font-size: 1.1vw;
+    color: black;
+    border: none;
+    font-weight: bold;
+}
+
+.compare button:hover {
+     background-color: #9fe870;
+}
+
 
 
 
