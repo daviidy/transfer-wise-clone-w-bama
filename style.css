@@ -218,7 +218,7 @@ li {
     width: 100%;
     border-radius: 20px;
     margin: auto;
-    height: 700px;
+    height: 730px;
     box-shadow: 5px 5px 20px 10px rgb(235, 229, 229);
 }
 
@@ -319,8 +319,9 @@ table {
     padding: 10px;
     font-size: 1.1vw;
     color: black;
-    border: none;
+    border: 1px solid black;
     font-weight: bold;
+
 }
 
 .compare button:hover {
@@ -334,6 +335,24 @@ table {
 .form ::placeholder {
     font-weight: bold;
     font-size: medium;
+}
+
+.wise-id {
+    margin-top: 50px;
+    display: flex;
+    justify-content: space-evenly;
+    border-top: 1px solid;
+    padding: 20px;
+}
+
+.wise-id p {
+    line-height: 1.5;
+}
+
+.wise-id h5 {
+    margin-top: 20px;
+    margin-bottom: 15px;
+    font-size: 1rem;
 }
 
 
