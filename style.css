@@ -355,6 +355,11 @@ table {
     font-size: 1rem;
 }
 
+.hero-container {
+    display: flex;
+    justify-content: space-between;
+}
+
 
 
 
