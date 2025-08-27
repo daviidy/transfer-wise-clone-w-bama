@@ -62,7 +62,7 @@ li {
     text-decoration: none;
     padding: 1px;
     font-size: 1vw;
-    margin-right: 100px;
+    margin-right: 70px;
     margin-left: 15px;
     display: flex;
     align-items: center;
@@ -102,7 +102,7 @@ li {
 .dropdown ul li {
 }
 .logo {
-    margin-left: 100px;
+    margin-left: 40px;
 }
 
 .pricing a {
@@ -355,6 +355,74 @@ table {
     font-size: 1rem;
 }
 
+.hero-container {
+    display: flex;
+    justify-content: space-between;
+}
+
+.fa-solid {
+    font-size: 25px;
+}
+
+@media (max-width: 900px) {
+    .fa-solid fa-bars {
+        display: block;
+    }
+    .personal {
+        display: none;
+    }
+    .platform {
+        display: none;
+    }
+    .features {
+        display: none;
+    }
+    .pricing {
+        display: none;
+    }
+    .help {
+        display: none;
+    }
+    .lang {
+        display: none;
+    }
+    .rounded {
+        display: none;
+    }
+    .log {
+        display: none;
+    }
+}
+
+@media (min-width: 900px) {
+    .personal {
+        display: block;
+    }
+    .platform {
+        display: block;
+    }
+    .features {
+        display: block;
+    }
+    .pricing {
+        display: block;
+    }
+    .help {
+        display: block;
+    }
+    .lang {
+        display: block;
+    }
+    .rounded {
+        display: block;
+    }
+    .log {
+        display: block;
+    }
+    .fa-solid fa-bars {
+        display: none;    
+    }
+}
 
 
 
