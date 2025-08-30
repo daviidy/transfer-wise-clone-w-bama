@@ -12,6 +12,7 @@ nav ul {
   display: flex;
   flex-direction: row;
   justify-content: space-between;
+  align-items: center;
 }
 
 li {
@@ -62,7 +63,6 @@ li {
     text-decoration: none;
     padding: 1px;
     font-size: 1vw;
-    margin-right: 70px;
     margin-left: 15px;
     display: flex;
     align-items: center;
@@ -360,69 +360,66 @@ table {
     justify-content: space-between;
 }
 
-.fa-solid {
-    font-size: 25px;
-}
+/* responsive mode */
+@media (max-width: 768px) {
+    .fa-bars {
+        display: block !important;
+    }
 
-@media (max-width: 900px) {
-    .fa-solid fa-bars {
-        display: block;
+    .logo {
+        margin-left: 0;
     }
-    .personal {
+
+    .common-display {
         display: none;
     }
-    .platform {
+
+    .hero {
         display: none;
     }
-    .features {
-        display: none;
+
+    .wise-id {
+        flex-direction: column;
+        text-align: center;
     }
-    .pricing {
-        display: none;
-    }
-    .help {
-        display: none;
-    }
-    .lang {
-        display: none;
-    }
-    .rounded {
-        display: none;
-    }
-    .log {
+
+    .wise-id i {
         display: none;
     }
 }
 
-@media (min-width: 900px) {
-    .personal {
-        display: block;
-    }
-    .platform {
-        display: block;
-    }
-    .features {
-        display: block;
-    }
-    .pricing {
-        display: block;
-    }
-    .help {
-        display: block;
-    }
-    .lang {
-        display: block;
-    }
-    .rounded {
-        display: block;
-    }
-    .log {
-        display: block;
-    }
-    .fa-solid fa-bars {
-        display: none;    
+@media (min-width: 769px) {
+    .fa-bars {
+        display: none !important;
     }
 }
 
+.amount-currency {
+    display: flex;
+    justify-content: space-between;
+    border: 1px solid black;
+    border-radius: 8px;
+}
 
+.amount {
+    display: flex;
+    align-items: center;
+    font-size: 2rem;
+    font-weight: bold;
+    padding: 10px;
+}
+
+.currency {
+    width: 25%;
+    display: flex;
+    align-items: center;
+    padding: 10px;
+    justify-content: space-between;
+}
+
+.currency div:nth-child(2) {
+    display: flex;
+    align-items: center;
+    padding-right: 10px;
+}
 
